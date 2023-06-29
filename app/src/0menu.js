@@ -14,11 +14,25 @@ import Courses from './3courses';
     //         setLoading(false);
     //     });
 
-    export default function Menu() {
-        let response = axios.get(`https://www.jsonkeeper.com/b/MDXW`);
-        let data = response.data;
-        return data;
-      }
-      
-      console.log(Menu());
 
+export default function Menu () {
+    const [menuItems, data] = useState([]);
+    axios.get(`https://www.jsonkeeper.com/b/MDXW`)
+    .then(response => {
+        data(response.data);
+    })
+         console.log(data);
+        return (
+    <div>
+        <p> hello </p>
+    </div>
+        );
+   
+}
+// export async function getData() {
+//     let response = await axios.get(`https://www.jsonkeeper.com/b/MDXW`);
+//     let data = response.data;
+//     return data;
+//   }
+  
+//   console.log(getData());
