@@ -2,7 +2,7 @@
 ## Requirements
 MoSCoW
 1. MUST
-- WIREFRAMES for website design
+- WIREFRAMES for website design DONE
 - Basic information regarding the name, address, and hours of restaurant
 - BOOTSTRAP via NPM
 - API retrieval through AXIOS
