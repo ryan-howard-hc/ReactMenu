@@ -1,22 +1,22 @@
-import React, { useState } from 'react';
-import ReactDOM from 'react-dom/client';
+import React from 'react';
+import { useEffect, useState} from 'react';
 
 export default function Courses() {
     const [menuItems, setMenuItems] = useState([]);
     const [loading, setLoading] = useState(true);
   
-    useEffect(() => {
-      axios.get('https://www.jsonkeeper.com/b/MDXW')
-        .then(response => {
-          setMenuItems(response.data);
-          setLoading(false);
-        })
-        .catch(error => {
-          console.error('Error fetching menu items', error);
-          setLoading(false);
-        });
-    }, []);
-  
+    // useEffect(() => {
+    //   axios.get('https://www.jsonkeeper.com/b/MDXW')
+    //     .then(response => {
+    //       setMenuItems(response.data);
+    //       setLoading(false);
+    //     })
+    //     .catch(error => {
+    //       console.error('Error fetching menu items', error);
+    //       setLoading(false);
+    //     });
+    // }, []);
+
     if (loading) {
       return <div>Loading...</div>;
     }
