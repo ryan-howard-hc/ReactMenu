@@ -1,7 +1,9 @@
 import React, { useEffect } from 'react';
 import axios from 'axios';
 import Navbar from './1nav';
+import Header from './2header';
 import Courses from './3courses';
+import Specials from './4specials';
 
 export default function Menu() {
     useEffect(() => {
@@ -9,17 +11,18 @@ export default function Menu() {
         .then(response => {
           let data = response.data;
           console.log(data);
-          // Handle the data or update state here
+
         })
         .catch(error => {
           console.error(error);
-          // Handle error if necessary
+
         });
-    }, []); // Empty dependency array to run effect only once
+    }, []); 
   
     return (
       <div>
-        <p>hello</p>
+        <Navbar />
+        <Courses />
       </div>
     );
   }

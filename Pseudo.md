@@ -39,7 +39,7 @@ MoSCoW
     - NPM locational data retrievable through google
     - Wireframe representation 
 
-3. Organism
+3. Organism 
     - Each section containing several meals
     - Interactive meals based on time of day/day of week
     - Doordash implementation
