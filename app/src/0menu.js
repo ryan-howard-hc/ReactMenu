@@ -22,7 +22,9 @@ export default function Menu() {
     return (
       <div>
         <Navbar />
+        <Header/>
         <Courses />
+
       </div>
     );
   }
