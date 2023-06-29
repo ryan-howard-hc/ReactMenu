@@ -1,14 +1,12 @@
 import './App.css';
+import axios from 'axios';
 
-import '/bootstrap/dist/css/bootstrap.css';
-import '/bootstrap/dist/js/bootstrap.js';
-import Menu from './menu';
+import Menu from './0menu';
 
 function App() {
   return (
     <div className="App">
       <Menu />
-      <Courses />
     </div>
   );
 }
