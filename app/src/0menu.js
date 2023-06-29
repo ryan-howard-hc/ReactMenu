@@ -27,7 +27,7 @@ export default function Menu() {
         <Header/>
         <Courses />
         <Footer />
-
+        <Specials />
       </div>
     );
   }
