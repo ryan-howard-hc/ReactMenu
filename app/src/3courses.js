@@ -21,16 +21,31 @@ export default function Courses() {
 
 
       return (
-        <div>
+        <div style={{ textAlign: 'center' }}>
           <h1>Menu Items</h1>
-          {menuItems.slice(0, 16).map(item => (     //stopped from loading a million items
-            <div key={item.id}>
-              <h2>{item.title}</h2>
-              <p>{item.description}</p>
-              <p>Price: {item.price}</p>
-              <p>Spicy Level: {item.spicy_level}</p>
+          
+          <div style={{ display: 'flex', justifyContent: 'center',  }}>
+            <div style={{ flex: '50%' }}>
+              {menuItems.slice(0, 8).map(item => (
+                <div className="card" key={item.id}>
+                  <h3 className="card-title">{item.title}</h3>
+                  <p className="card-text">{item.description}</p>
+                  <p className="card-text">Price: {item.price}</p>
+                  <p className="card-text">Spicy Level: {item.spicy_level}</p>
+                </div>
+              ))}
             </div>
-          ))}
+            <div style={{ flex: '50%' }}>
+              {menuItems.slice(8, 16).map(item => (
+                <div className="card" key={item.id}>
+                  <h3 className="card-title">{item.title}</h3>
+                  <p className="card-text">{item.description}</p>
+                  <p className="card-text">Price: {item.price}</p>
+                  <p className="card-text">Spicy Level: {item.spicy_level}</p>
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
       );
     }
