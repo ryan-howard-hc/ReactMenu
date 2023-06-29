@@ -22,7 +22,7 @@ export default function Courses() {
 
       return (
         <div style={{ textAlign: 'center' }}>
-          <h1>Menu Items</h1>
+          <h1 style={{ borderBottom: '1px solid #000', borderTop: '1px solid #000', padding: '10px 0' }}>Menu Items</h1>
           
           <div style={{ display: 'flex', justifyContent: 'center',  }}>
             <div style={{ flex: '50%' }}>
