@@ -25,7 +25,7 @@ export default function Courses() {
           <h1 style={{ borderBottom: '1px solid #000', borderTop: '1px solid #000', padding: '10px 0' }}>Menu Items</h1>
           
           <div style={{ display: 'flex', justifyContent: 'center',  }}>
-            <div style={{ flex: '50%' }}>
+            <div style={{ flex: '50%', borderRight: '1px solid #000' }}>
               {menuItems.slice(0, 8).map(item => (
                 <div className="card" key={item.id}>
                   <h3 className="card-title">{item.title}</h3>

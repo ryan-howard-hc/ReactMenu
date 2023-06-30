@@ -2,6 +2,7 @@ import React from 'react';
 import { useEffect, useState} from 'react';
 import axios from 'axios';
 
+
 export default function Specials() {
 
         const [menuItems, setMenuItems] = useState([]);
@@ -21,7 +22,7 @@ export default function Specials() {
           }, []);
 
     return (
-         <div>
+         <div id="specials">
             <h1 style= {{ borderBottom: '1px solid #000', borderTop: '1px solid #000', padding: '10px 0' }}>Specials</h1>
         {menuItems.slice(16, 24).map(item => (
           <div className="card" key={item.id}>
