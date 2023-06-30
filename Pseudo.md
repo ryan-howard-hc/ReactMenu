@@ -7,11 +7,11 @@ MoSCoW
 - BOOTSTRAP via NPM                   DONE
 - API retrieval through AXIOS         DONE
 - DYNAMIC menu - SECTIONS such as appetizers, pasta, sandwiches, etc                      
-               - AT LEAST 15 meals
-               - ORGANISM display for each section
-               - BOOTSTRAP card for each meal
-- MANAGE react component state
-- RESPONSIVE to mobile users
+               - AT LEAST 15 meals                DONE
+               - ORGANISM display for each section    DONE
+               - BOOTSTRAP card for each meal   DONE
+- MANAGE react component state        DONE I THINK?
+- RESPONSIVE to mobile users        DONE I THINK?
 
 2. SHOULD
 - ICONS for spicyness, vegan options, etc
@@ -19,7 +19,7 @@ MoSCoW
 - EMBEDDED NPM google map for location of restaurant
 
 3. COULD
-- CREATE own JSON
+ - CREATE own JSON <!---TECHNICALLY DONE, DONT KNOW HOW TO CONNECT ON WEBSITE -->
 - MODIFY title and meta tags using create-react-app
 - IMPLEMENTING a doordash style online shopping card with temp save data for purchase
 - USE React context
