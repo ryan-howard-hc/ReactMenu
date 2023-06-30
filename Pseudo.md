@@ -2,11 +2,11 @@
 ## Requirements
 MoSCoW
 1. MUST
-- WIREFRAMES for website design DONE
-- Basic information regarding the name, address, and hours of restaurant
-- BOOTSTRAP via NPM
-- API retrieval through AXIOS
-- DYNAMIC menu - SECTIONS such as appetizers, pasta, sandwiches, etc
+- WIREFRAMES for website design       DONE
+- Basic information regarding the name, address, and hours of restaurant                         DONE
+- BOOTSTRAP via NPM                   DONE
+- API retrieval through AXIOS         DONE
+- DYNAMIC menu - SECTIONS such as appetizers, pasta, sandwiches, etc                      
                - AT LEAST 15 meals
                - ORGANISM display for each section
                - BOOTSTRAP card for each meal
