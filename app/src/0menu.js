@@ -6,6 +6,7 @@ import Courses from './3courses';
 import Specials from './4specials';
 import Doordash from './5doordash';
 import Footer from './6footer';
+import Appetizers from './7appetizers';
 
 export default function Menu() {
     useEffect(() => {
@@ -25,6 +26,7 @@ export default function Menu() {
       <div>
         <Navbar />
         <Header/>
+        <Appetizers />
         <Courses />
         <Footer />
         <Specials />
