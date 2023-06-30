@@ -16,7 +16,7 @@ MoSCoW
 2. SHOULD
 - ICONS for spicyness, vegan options, etc
 - CHANGE menu based on time of day
-- EMBEDDED NPM google map for location of restaurant
+- EMBEDDED NPM google map for location of restaurant KIND OF?
 
 3. COULD
  - CREATE own JSON <!---TECHNICALLY DONE, DONT KNOW HOW TO CONNECT ON WEBSITE -->
