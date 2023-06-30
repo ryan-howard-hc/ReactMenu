@@ -22,7 +22,7 @@ export default function Header() {
         <p>(859) 867-5309</p>
         <a href="#specials" style={{ fontSize: '200%' }}>Specials!</a>
         <br></br>
-        <a href="#" style={{ fontSize: '200%' }}>Online Order!</a>
+        <a href="/OrderOnline" style={{ fontSize: '200%' }}>Online Order!</a>
       </div>
       <iframe
           title="Google Map"
