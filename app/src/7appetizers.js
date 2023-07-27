@@ -6,7 +6,7 @@ export default function Appetizers() {
     const [menuItems, setMenuItems] = useState([]);
     const [loading, setLoading] = useState(true);
     useEffect(() => {
-        axios.get('https://www.jsonkeeper.com/b/MDXW')
+        axios.get('http://127.0.0.1:8000/menu/get_menu/')
           .then(response => {
             let data = response.data;
             setMenuItems(data);
